@@ -111,6 +111,8 @@ body {
   line-height: 18px;
   color: #333333;
   background-color: #ffffff;
+  background-image: url('/assets/img/bg.jpg');
+  background-repeat: repeat;
 }
 a {
   color: #0088cc;

@@ -1,0 +1,32 @@
+div.topbar{
+  background-image: url('/assets/img/bg.jpg');
+  background-repeat: repeat;
+}
+
+a.brand{
+  padding-top: 17px !important;
+}
+
+.navbar-inner{
+  height: 70px;
+}
+
+.navbar .nav > li > a{
+  font-size: 18px;
+  padding-top: 25px;
+}
+
+.white{
+  color: white !important;
+}
+
+.c { clear: both; }
+
+
+.SliderName_2{
+  width: 576px;
+  height: 385px
+}
+#slider_container_2{
+  margin: 0 0 0 200px !important;
+}
