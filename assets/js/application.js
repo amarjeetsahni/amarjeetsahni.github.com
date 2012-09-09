@@ -24,6 +24,6 @@ $(function(){
 		generatePagination: false,
 		preloadImage: 'assets/img/loadimage.gif',
 		generateNextPrev: false,
-		generatePagination: false,
+		generatePagination: false
  }); 
 });

@@ -17,13 +17,13 @@ $(function(){
   $("#slides").slides({
 		preload: true,
 		play:5000,
-		pause: 3500,
-		slideSpeed: 1000,
+		pause: 5000,
+		slideSpeed: 1500,
 		crossfade:true,
 		generateNextPrev: false,
 		generatePagination: false,
 		preloadImage: 'assets/img/loadimage.gif',
 		generateNextPrev: false,
-		generatePagination: false,
+		generatePagination: false
  }); 
 });
