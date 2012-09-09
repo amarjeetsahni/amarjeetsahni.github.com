@@ -14,6 +14,7 @@ a.brand{
 .navbar .nav > li > a{
   font-size: 18px;
   padding-top: 25px;
+  font-weight: 800;
 }
 
 .white{
@@ -30,3 +31,116 @@ a.brand{
 #slider_container_2{
   margin: 0 0 0 200px !important;
 }
+
+.heading_desc{
+    border-bottom: 1px solid #D6D6D6;
+    color: #685C53;
+    font-family: "SansationLight","Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    height: auto;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 25px 18px 21px 120px;
+    padding: 5px;
+    text-align: center;
+    width: 800px;
+}
+
+/* Slider */
+#slides{
+		height: 279px;
+    width: 960px;
+}
+.slides_container {
+	 width:800px;
+   margin:30px 10px 30px 253px;
+}
+.slides_container div {
+	  width:800px;
+    display:block;
+}
+.slide p{
+ font-style: italic;
+ font-size: 16px;
+}
+
+/*
+	Slideshow
+
+
+#slides {
+	position:absolute;
+	top:15px;
+	left:4px;
+	z-index:100;
+}
+*/
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+
+
+.slides_container {
+	width:400px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+*/
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+
+
+.slides_container div.slide {
+	width:400px;
+	height:267px;
+	display:block;
+}
+*/
+/*
+	Next/prev buttons
+
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:120px;
+	left:-24px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:400px;
+}
+*/
+/*
+	Caption
+
+
+.caption_bg {
+	z-index:500;
+	position:absolute;
+	bottom:0px;
+	left:0;
+	height:20px;
+	padding:5px 20px 0 20px;
+	background:#000;
+	opacity: .5;
+	width:540px;
+	font-size:1.3em;
+	line-height:1.33;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+
+.caption { color: #fff !important; position:absolute; z-index:9999; bottom:-10px; left: 10px;}*/
