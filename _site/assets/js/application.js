@@ -16,8 +16,8 @@ $(function(){
   APPLICATION.currentTab();
   $("#slides").slides({
 		preload: true,
-		play:3000,
-		pause: 3000,
+		play:5000,
+		pause: 3500,
 		slideSpeed: 1000,
 		crossfade:true,
 		generateNextPrev: false,
