@@ -3,4 +3,5 @@
 # ----------------------- #
 
 url: http://bandanapeace.org
-
+markdown: rdiscount
+pygments: true

@@ -1,3 +1,4 @@
+	
 div.topbar{
   background-image: url('/assets/img/bg.jpg');
   background-repeat: repeat;
@@ -67,6 +68,32 @@ a.brand{
  font-size: 16px;
 }
 
+div.work_container{
+    margin-top: 30px;
+    line-height: 2;
+    font-size: 18px;
+   background: none repeat scroll 0 0 white;
+    box-shadow: 0 0 20px black;
+    padding: 15px 10px 15px 10px;
+    border-radius: 6px 6px 6px 6px;
+    opacity: 0.8;
+}
+
+
+div.work_container div.row div.span11{
+    margin-left: 10px !important;
+}
+
+.small-hero-unit{
+    background-color: #F5F5F5;
+    border-radius: 6px 6px 6px 6px;
+    margin-bottom: 20px;;
+}
+
+.small-hero-unit h1{
+    font-size: 36px;
+    padding: 12px;
+}
 /*
 	Slideshow
 
